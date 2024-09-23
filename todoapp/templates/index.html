@@ -15,7 +15,7 @@
             👍
             {% endif %}
             {% if not task.completed %}
-                👎  
+                👎
             {% endif %}
             {{ task.description }}
             - <a href="{% url 'delete_task' task.id %}">Delete</a>
